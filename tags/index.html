@@ -28,7 +28,8 @@
     </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 
 <body>
@@ -304,6 +305,24 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     </span>
                 </a>
                 
+                
+                <a href="/tags/wechat/" title="wechat: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="wechat" style="background-color: #F5EEF8;">wechat
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/python/" title="python: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="python" style="background-color: #D5F5E3;">python
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
@@ -328,7 +347,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"chrome","weight":1,"link":"https://youyim.top/tags/chrome/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"chrome","weight":1,"link":"https://youyim.top/tags/chrome/"},{"text":"wechat","weight":1,"link":"https://youyim.top/tags/wechat/"},{"text":"python","weight":1,"link":"https://youyim.top/tags/python/"}], {
         autoResize: true
     });
 </script>
@@ -345,7 +364,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             <br>
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">490</span>&nbsp;字
+                class="white-color">1.4k</span>&nbsp;字
             
             
             
@@ -367,7 +386,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 var now = new Date();
 
                 function createtime() {
-                    var grt = new Date("06/28/2019 00:00:00");
+                    var grt = new Date("09/28/2019 00:00:00");
                     now.setTime(now.getTime() + 250);
                     days = (now - grt) / 1000 / 60 / 60 / 24;
                     dnum = Math.floor(days);
